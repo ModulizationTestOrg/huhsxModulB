@@ -1,5 +1,5 @@
 PODS:
-  - huhsxModulB (0.1.0)
+  - huhsxModulB (1)
 
 DEPENDENCIES:
   - huhsxModulB (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  huhsxModulB: 0ad84e44121033b067ac88155c71832adf6b7e7c
+  huhsxModulB: 877643fb3023a11d047853ca99caf9beff9b8ec9
 
 PODFILE CHECKSUM: 2231e0a9f12b238e2e6798ca0486708e4141ccbc
 
