@@ -20,7 +20,7 @@
     
     if (!_image) {
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-        NSString *path = [bundle pathForResource:@"anime-girl-scenic-raining-animal-ears-profile-view-night-dark-theme.jpg"
+        NSString *path = [bundle pathForResource:@"anime-girl-scenic-raining-animal-ears-profile-view-night-dark-theme.png"
                                           ofType:nil
                                      inDirectory:nil];
         
