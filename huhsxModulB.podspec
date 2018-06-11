@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'huhsxModulB'
-  s.version          = '4'
+  s.version          = '5'
   s.summary          = 'A short description of huhsxModulB.'
 
 # This description is used to generate tags and improve search results.
