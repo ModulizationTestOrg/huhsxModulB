@@ -52,6 +52,7 @@
     if (self.block) {
         self.block(NO);
     }
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)doneAction {
@@ -59,6 +60,7 @@
     if (self.block) {
         self.block(YES);
     }
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
