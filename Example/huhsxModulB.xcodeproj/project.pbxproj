@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8D45C11DBBD6B151A8DC1A5 /* Pods-huhsxModulB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huhsxModulB_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-huhsxModulB_Tests/Pods-huhsxModulB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4830868035B421B671E1421 /* huhsxModulB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = huhsxModulB.podspec; path = ../huhsxModulB.podspec; sourceTree = "<group>"; };
+		D4830868035B421B671E1421 /* huhsxModulB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = huhsxModulB.podspec; path = ../huhsxModulB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3744648CCC7FB537697786E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E97571FF29B7FEA64EDB165B /* Pods_huhsxModulB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huhsxModulB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -260,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -321,7 +322,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-huhsxModulB_Example/Pods-huhsxModulB_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-huhsxModulB_Example/Pods-huhsxModulB_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/huhsxModulB/huhsxModulB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -330,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-huhsxModulB_Example/Pods-huhsxModulB_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huhsxModulB_Example/Pods-huhsxModulB_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		80959CAE1B5D34EB2EAB6431 /* [CP] Check Pods Manifest.lock */ = {
