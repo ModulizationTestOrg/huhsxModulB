@@ -22,7 +22,7 @@
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
         NSString *path = [bundle pathForResource:@"nier-automata-yorha-2b-eyepatch-swords-white-hair.png"
                                           ofType:nil
-                                     inDirectory:nil];
+                                     inDirectory:@"huhsxModulB.bundle"];
         
         _image = [UIImage imageWithContentsOfFile:path];
     }
